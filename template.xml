@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html
+    b:version='2'
+    class='v2'
+    expr:dir='data:blog.languageDirection'
+    expr:lang='data:blog.locale'
+    xmlns='http://www.w3.org/1999/xhtml'
+    xmlns:b='http://www.google.com/2005/gml/b'
+    xmlns:data='http://www.google.com/2005/gml/data'
+    xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+
+<meta charset='UTF-8'/>
+
+<meta content='width=device-width,initial-scale=1' name='viewport'/>
+
+<b:include data='blog' name='all-head-content'/>
+
+<title>
+  <data:blog.pageTitle/>
+</title>
+
+<meta expr:content='data:blog.metaDescription' name='description'/>
+
+<link href='https://fonts.googleapis.com' rel='preconnect'/>
+<link crossorigin='anonymous' href='https://fonts.gstatic.com' rel='preconnect'/>
+
+<link href='https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap' rel='stylesheet'/>
+
+<b:skin><![CDATA[
+
+/* =====================================================
+   AMAZONIKA BLOGGER THEME
+   Version : 0.1
+===================================================== */
+
+:root{
+
+--primary:#0F766E;
+
+--secondary:#14B8A6;
+
+--accent:#F59E0B;
+
+--danger:#EF4444;
+
+--success:#22C55E;
+
+--dark:#111827;
+
+--light:#F8FAFC;
+
+--gray:#64748B;
+
+--radius:18px;
+
+--shadow:
+0 10px 40px rgba(0,0,0,.08);
+
+}
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:'Cairo',sans-serif;
+
+background:#ffffff;
+
+color:#1e293b;
+
+line-height:1.8;
+
+}
+
+a{
+
+text-decoration:none;
+
+color:inherit;
+
+}
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+.wrapper{
+
+width:min(1400px,95%);
+
+margin:auto;
+
+}
+
+]]></b:skin>
+
+</head>
+
+<body>
+
+<div class='wrapper'>
+
+<header id='amazonika-header'>
+
+<h1>
+
+<data:blog.title/>
+
+</h1>
+
+<p>
+
+<data:blog.description/>
+
+</p>
+
+</header>
+
+<main id='amazonika-main'>
+
+<!-- سيتم بناء الصفحة الرئيسية هنا -->
+
+</main>
+
+<footer id='amazonika-footer'>
+
+<p>
+
+© <data:blog.title/>
+
+</p>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
